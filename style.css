@@ -43,16 +43,16 @@
 }
 
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .item, .head {
-  list-style:none;
+  list-style: none;
 }
 
 input,.btn{
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -164,14 +164,14 @@ input,.btn{
 
 /* Edit Task */
 .item .input-text {
-  display:none
+  display: none
 }
 
 .item.fix .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .item.fix label {
-  display:none;
+  display: none;
 }

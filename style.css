@@ -20,7 +20,7 @@ body {
 @media (max-width:768px) {
   .img { text-align: center; }
 }
-.main-center {
+.center {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -30,7 +30,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-wrapper {
+.task-wrap {
   display: flex;
 }
 ul {
@@ -133,7 +133,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#resolved label {
   text-decoration: line-through;
   color: #888;
 }
@@ -143,11 +143,11 @@ ul li input[type="text"] {
   display:none
 }
 
-ul li.edit-mode input[type="text"] {
+ul li.fix input[type="text"] {
   display:inline-block;
   width:224px
 }
 
-ul li.edit-mode label {
+ul li.fix label {
   display:none;
 }

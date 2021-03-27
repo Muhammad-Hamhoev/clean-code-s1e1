@@ -35,7 +35,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrap {
@@ -139,7 +139,7 @@ input,.btn{
 }
 
 .item > .input-text {
-  width: 226px
+  width: 226px;
 }
 
 .item > .btn.delete:hover {
@@ -164,12 +164,12 @@ input,.btn{
 
 /* Edit Task */
 .item .input-text {
-  display: none
+  display: none;
 }
 
 .item.fix .input-text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .item.fix label {
